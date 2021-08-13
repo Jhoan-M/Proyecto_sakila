@@ -1,0 +1,33 @@
+
+            /*Diseño de tabla */
+
+  tr:nth-child(even) {
+    background-color: #4e3d86ce;
+  }
+  tr:nth-child(odd) {
+    background-color: #272044;
+  }
+  td, th{
+    background-color: #463a6d;
+    color: white;
+
+  }
+  .noBorder, th{
+      border-collapse: se;
+      color: white;
+      border: #272044 2px solid; 
+      box-shadow: 0 5px 10px rgba(9,0,0,0.5);
+
+
+  }
+
+
+  tr:hover {
+    background-color: #cf676786;
+    transition: .4s;
+    cursor: pointer;
+  }
+
+tr:hover{
+  transform: translate(0px, -10px);
+}
